@@ -7,18 +7,9 @@ MAINTAINER Tim Sutton<tim@kartoza.com>
 RUN apt-get -y update && \
     apt-get install -y \
     gettext \
-    python-yaml \
-    libgeos-dev \
-    python-lxml \
-    libgdal-dev \
-    build-essential \
-    python-dev \
-    libjpeg-dev \
-    zlib1g-dev \
-    libfreetype6-dev \
-    python-virtualenv
+    build-essential
 
-RUN pip install Shapely Pillow MapProxy uwsgi
+RUN pip install pyproj numba Pillow git+https://github.com/rouault/mapproxy.git@hips uwsgi
 
 EXPOSE 8080
 ENV \

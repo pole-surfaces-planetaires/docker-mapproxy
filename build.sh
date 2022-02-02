@@ -1,1 +1,1 @@
-docker build -t kartoza/mapproxy .
+docker build -t rouault/mapproxy:hips .
