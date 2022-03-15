@@ -7,7 +7,7 @@ LABEL \
     org.label-schema.build-date="2022-03-15" \
     org.label-schema.name="mapproxy" \
     org.label-schema.description="Fork of mapproxy for handling HIPS protocol" \
-    org.label-schema.url=https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
+    org.label-schema.url="https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
     org.label-schema.vcs-url="https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
     org.label-schema.vcs-ref="https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
     org.label-schema.vendor="PDSSP (Pole de données et services Surfaces Planétaires)" \
