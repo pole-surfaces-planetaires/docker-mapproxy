@@ -2,6 +2,17 @@
 FROM python:3.7
 MAINTAINER Tim Sutton<tim@kartoza.com>
 
+LABEL \
+    org.label-schema.schema-version="1.0" \
+    org.label-schema.build-date="2022-03-15" \
+    org.label-schema.name="mapproxy" \
+    org.label-schema.description="Fork of mapproxy for handling HIPS protocol" \
+    org.label-schema.url=https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
+    org.label-schema.vcs-url="https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
+    org.label-schema.vcs-ref="https://github.com/pole-surfaces-planetaires/docker-mapproxy" \
+    org.label-schema.vendor="PDSSP (Pole de données et services Surfaces Planétaires)" \
+    org.label-schema.version="1.13.1-pdssp"
+    
 #-------------Application Specific Stuff ----------------------------------------------------
 
 RUN apt-get -y update && \
