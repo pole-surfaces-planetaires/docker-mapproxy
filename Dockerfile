@@ -20,7 +20,7 @@ RUN apt-get -y update && \
     gettext \
     build-essential
 
-RUN pip install pyproj numba Pillow git+https://github.com/rouault/mapproxy.git@hips uwsgi
+RUN pip install pyproj numba Pillow git+https://github.com/pole-surfaces-planetaires/mapproxy@hips uwsgi
 
 EXPOSE 8080
 ENV \
